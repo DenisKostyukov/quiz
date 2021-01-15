@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
         playTest();
         newBlock=document.createElement("p");
         newBlock.style="text-align:center;"
-        newBlock.innerText=`${"Фото: "+burgerImg.src +" Название: "+ burgerName.innerText}.`;
+        newBlock.innerText=`Фото: ${burgerImg.src} Название: ${burgerName.innerText}.`;
         document.body.append(newBlock);
     });
     closeModal.addEventListener("click", () => {
